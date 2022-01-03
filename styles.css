@@ -1,0 +1,28 @@
+body {
+    /*background: #1f2937;*/
+}
+
+.flex-header {
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.flex-header > div {
+    margin: auto auto auto 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.flex-header img {
+    flex: 1;
+    width: 500px;
+    margin: 50px;
+}
